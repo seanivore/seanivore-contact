@@ -1,4 +1,4 @@
-# SEANIVORE Projects 
+# SEANIVORE PROJECTS 
 
 ## Agentic Case Studies 
 
