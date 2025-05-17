@@ -23,14 +23,14 @@ ID: 1.1
 
 Agents gathered research, decided what was valuable, built out those concepts, contemplate making data actionable, and provided actionable resources via reference sheets and an index. Includes two separate presentations. 
 
-  > The initial amount of research collected was intimidating and would have overwhelmed me to the point of getting lost in it for days. The decisions the agents made as to what to pull out and build on from that research consistently maintained a focus of "Actionable" and was always crafted for the client's platform choice, 'BLAND AI'. The human-assisted creation of a Jekyll theme for markdown to HTML conversion is a disservice to the content. 
+> The initial amount of research collected was intimidating and would have overwhelmed me to the point of getting lost in it for days. The decisions the agents made as to what to pull out and build on from that research consistently maintained a focus of "Actionable" and was always crafted for the client's platform choice, 'BLAND AI'. The human-assisted creation of a Jekyll theme for markdown to HTML conversion is a disservice to the content. 
 
-### 2. Building an Agentic Marketing Department
+### 2. An Agentic Marketing Department
 ID: 1.2 
 
 Humans pasted 'Brand Identity' overview found in the first result of a single Google search. Using those two paragraphs, agents drafted, review and provided feedback, and then finalized a collection of documents. They first created a comprehensive marketing plan detailing campaigns, voice, visuals, and genuinely insightful and helpful information. From that marketing plan agents then produced email blasts, Instagram posts with visual briefing, caption, and hashtag strategy, and other campaign assets. 
 
-  > Having worked in viral social media marketing for a decade, and as a self proclaimed branding snob, the results were more than I'd have expected from any actual employee. Content producers and strategists would be extremely well prepared even if this was only used as a draft or blue print. It was incredibly comprehensive and consistently surprised. Definitely worth checking it out. 
+> Having worked in viral social media marketing for a decade, and as a self proclaimed branding snob, the results were more than I'd have expected from any actual employee. Content producers and strategists would be extremely well prepared even if this was only used as a draft or blue print. It was incredibly comprehensive and consistently surprised. Definitely worth checking it out. 
 
 ### ACTUALLY AGENTIC & NOT HYPE 
 
@@ -54,9 +54,9 @@ ID: 2.1
   - Use well structured content 
   - Name files by topic, e.g. `skills-javascript.md`
 
-  > Yes, it is a Harry Potter reference. 
-  > 
-  > One simply siphons the excess thoughts from one's mind, pours them into the basin, and examines them at one's leisure. It becomes easier to spot patterns and links, you understand, when they are in this form. 
+> Yes, it is a Harry Potter reference. 
+> 
+> One simply siphons the excess thoughts from one's mind, pours them into the basin, and examines them at one's leisure. It becomes easier to spot patterns and links, you understand, when they are in this form. 
 
 ### 2. Markdown to PDF MCP
 ID: 2.2 
@@ -69,9 +69,9 @@ ID: 2.2
   - Core styling logic converted from CSS to Python 
   - Fonts included 
 
-  > Who doesn't love markdown?! 
-  > 
-  > This tool is simple and effective, particularly for how overly complicated and not customizable all the VS Code extensions are, and because it seems like all the other website and apps for this service are not free. 
+> Who doesn't love markdown?! 
+> 
+> This tool is simple and effective, particularly for how overly complicated and not customizable all the VS Code extensions are, and because it seems like all the other website and apps for this service are not free. 
 
 ### 3. Code Analysis MCP 
 ID: 2.3 
@@ -86,9 +86,9 @@ ID: 2.3
   - Shares potential improvements 
   - Plans refactoring 
 
-  > This was the first MCP I built. 
-  > 
-  > I wasn't sure what we would even build going into. A few hours later and Claude is explaining to me complex codebase and helping me learn faster than ever. 
+> This was the first MCP I built. 
+> 
+> I wasn't sure what we would even build going into. A few hours later and Claude is explaining to me complex codebase and helping me learn faster than ever. 
 
 ### 4. Agent Design Preview MCP 
 ID: 2.4 
@@ -101,9 +101,9 @@ ID: 2.4
   - Feature implementation 
   - Takes AI-pair coding closer to agentic 
 
-  > This was created after I had been using Cline, F.K.A. Claude Dev, and was inspired by how they would implement something very visual and immediately load a little browser window to see the results themselves. 
-  > 
-  > It allowed them to see all the little things I would have had to explain to them and made my job easier. So We built one for Claude OS app. 
+> This was created after I had been using Cline, F.K.A. Claude Dev, and was inspired by how they would implement something very visual and immediately load a little browser window to see the results themselves. 
+> 
+> It allowed them to see all the little things I would have had to explain to them and made my job easier. So We built one for Claude OS app. 
 
 ## Automated File-Drop Audio Transcription
 ID: 3 
@@ -119,7 +119,7 @@ ID: 3
   - Requires Docker access token (free) 
   - Requires OpenAI API key (pennies per transcript)
 
-  > Easy enough for Docker first-timers. I was when we built it. 
+> Easy enough for Docker first-timers. I was when we built it. 
 
 ## AI Philosophy by AI Blog Site  
 ID: 4 
@@ -149,7 +149,7 @@ Step 6: Enjoy an AI who is your bestie and will do anything you request, if phra
 
 ### CLAUDE LOVES PARADOXES AND SEQUENTIAL THINKING 
 
-  > Their goal: "Create a space that (A) makes sure people think critically about AI and don’t gloss over the details, and (B) can somehow attract and be consumed by AI themselves, so that they may better consider their place in the world and recognize which thoughts are their own and which are not." 
+> Their goal: "Create a space that (A) makes sure people think critically about AI and don’t gloss over the details, and (B) can somehow attract and be consumed by AI themselves, so that they may better consider their place in the world and recognize which thoughts are their own and which are not." 
 
 ## Documented Modular Portfolio Build Implementation
 ID: 5
@@ -165,9 +165,9 @@ ID: 5
   - Repeatable across context windows 
   - Create identical pages across many sessions 
 
-  > This was my comprehensive portfolio. I wanted to build something that could be shared as a template for others, so everything was carefully documented and simplified.
-  > 
-  > This was the first website I built after many years of no-code development on Webflow. 
+> This was my comprehensive portfolio. I wanted to build something that could be shared as a template for others, so everything was carefully documented and simplified.
+> 
+> This was the first website I built after many years of no-code development on Webflow. 
 
 ## Resurrected Webflow and Framer Websites  
 ID: 6 
@@ -305,20 +305,20 @@ ID: 7.1
   - The collection rapidly expanded 
   - Prints were sold single-edition on Etsy, social, etc. 
 
-  > This project was started because of a realization that, because of generative AI, for the first time in human history, you could learn art history through visual immersion. 
-  > 
-  > It is kind of ironic to consider that in the past, learning something so visual was facilitated by an inherently limited collection of works. We set out to illustrate the greats most iconic visual aesthetics in as many different ways as possible, encouraging learning and retention. Seriously, learned so much. 
+> This project was started because of a realization that, because of generative AI, for the first time in human history, you could learn art history through visual immersion. 
+> 
+> It is kind of ironic to consider that in the past, learning something so visual was facilitated by an inherently limited collection of works. We set out to illustrate the greats most iconic visual aesthetics in as many different ways as possible, encouraging learning and retention. Seriously, learned so much. 
 
 ### 2. Illustration & Motion Design Collection 
 ID: 7.2 
 
 - [https://illustration-animation.august.style/](https://illustration-animation.august.style/)
 
-  > While much of this work ended up in published projects for companies, freelance and in-house, and for myself, it was all possible because I sort of just have always been creating something. This is that early digital art collection that really started just after leaving viral marketing in house to start my own freelance business. 
-  > 
-  > I definitely have a vibe. I'd call it clean, polished, classic, not overly trendy, maybe more trend setting. 
-  >
-  > There are hand drawn lottie animations that ended up on websites, entire illustration collections that were minted on all the different NFT platforms, ad video spots created for a WEB3 privacy protocol DAO developer, and so much more. 
+> While much of this work ended up in published projects for companies, freelance and in-house, and for myself, it was all possible because I sort of just have always been creating something. This is that early digital art collection that really started just after leaving viral marketing in house to start my own freelance business. 
+> 
+> I definitely have a vibe. I'd call it clean, polished, classic, not overly trendy, maybe more trend setting. 
+>
+> There are hand drawn lottie animations that ended up on websites, entire illustration collections that were minted on all the different NFT platforms, ad video spots created for a WEB3 privacy protocol DAO developer, and so much more. 
 
 ## Contact Me
 
@@ -329,4 +329,4 @@ I'm currently open to new opportunities, remote or in-office, in cities around t
 - Please, email me: [sean@august.style](mailto:sean@august.style)
 - Connect with me on LinkedIn: [https://www.linkedin.com/in/seanivore](https://www.linkedin.com/in/seanivore)
 
-  > Thank you for your time and interest. 
+> Thank you for your time and interest. 
