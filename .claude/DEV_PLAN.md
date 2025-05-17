@@ -13,23 +13,19 @@ Let's wget each of them and then use the wget output to create a new repository.
 
 **Find the `./ai_docs/wget-github-pages-etc/wget-command-arguments.md` option to ensure that the root directory is not the domain name, otherwise it creates massive path issues.** 
 
-### Download Websites  
+### Download Websites 
 
 1. Place arguments before the URL.
 
-2. Run the commands. 
+2. The directories are already created, so we can just run the commands. 
 
 ```zsh
-cd /Users/seanivore/Development
-mkdir art-history-prints
-cd art-history-prints
+cd /Users/seanivore/Development/art-history-prints
 wget https://art-history.august.style/ 
 ``` 
 
 ```zsh
-cd /Users/seanivore/Development
-mkdir art-illustration-animation
-cd art-illustration-animation
+cd /Users/seanivore/Development/art-illustration-animation
 wget https://illustration-animation.august.style/ 
 ``` 
 
@@ -38,9 +34,11 @@ wget https://illustration-animation.august.style/
 ### Organize and Deploy 
 
 1. Organize the files. 
-2. Create CNAME file with no extension and only the custom domain name. 
-3. Create the Jekyll config file `_config.yml` with the usual settings. 
-4. Deploy to GitHub Pages. 
+2. Prepare the README files. 
+3. Create CNAME file with no extension and only the custom domain name. 
+4. Change the DNS from pointing to Adobe Portfolio to pointing to GitHub Pages. 
+5. Create the Jekyll config file `_config.yml` with the usual settings. 
+6. Deploy to GitHub Pages. 
 
 ## Content Completion  
 
