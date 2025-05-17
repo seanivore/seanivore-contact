@@ -1,6 +1,7 @@
-# View More SEANIVORE Projects
+# PROJECTS 
 
-## Agentic Workflow Case Studies 
+## Agentic Workflow Case Studies
+ID: 1 
 
 "Building Effective Agents" 
 
@@ -17,11 +18,17 @@
   - Delegates tasks to other agents 
   - Agents decisions from multi-LLM feedback 
 
-1. Case study on AI Voice Marketing Research and Creative Implementation. Agents gathered research, decided what was valuable, built out those concepts, contemplate making data actionable, and provided actionable resources via reference sheets and an index. Includes two separate presentations. 
+### 1. AI Voice Marketing Research and Creative Implementation
+ID: 1.1 
+
+Agents gathered research, decided what was valuable, built out those concepts, contemplate making data actionable, and provided actionable resources via reference sheets and an index. Includes two separate presentations. 
 
   > The initial amount of research collected was intimidating and would have overwhelmed me to the point of getting lost in it for days. The decisions the agents made as to what to pull out and build on from that research consistently maintained a focus of "Actionable" and was always crafted for the client's platform choice, 'BLAND AI'. The human-assisted creation of a Jekyll theme for markdown to HTML conversion is a disservice to the content. 
 
-2. Case study on building an Agentic Marketing Department. Humans pasted 'Brand Identity' overview found in the first result of a single Google search. Using those two paragraphs, agents drafted, review and provided feedback, and then finalized a collection of documents. They first created a comprehensive marketing plan detailing campaigns, voice, visuals, and genuinely insightful and helpful information. From that marketing plan agents then produced email blasts, Instagram posts with visual briefing, caption, and hashtag strategy, and other campaign assets. 
+### 2. Building an Agentic Marketing Department
+ID: 1.2 
+
+Humans pasted 'Brand Identity' overview found in the first result of a single Google search. Using those two paragraphs, agents drafted, review and provided feedback, and then finalized a collection of documents. They first created a comprehensive marketing plan detailing campaigns, voice, visuals, and genuinely insightful and helpful information. From that marketing plan agents then produced email blasts, Instagram posts with visual briefing, caption, and hashtag strategy, and other campaign assets. 
 
   > Having worked in viral social media marketing for a decade, and as a self proclaimed branding snob, the results were more than I'd have expected from any actual employee. Content producers and strategists would be extremely well prepared even if this was only used as a draft or blue print. It was incredibly comprehensive and consistently surprised. Definitely worth checking it out. 
 
@@ -29,13 +36,13 @@
 
 The documentation in the website includes technical details. Message with any questions. 
 
-## Retrieval Augmented Generative Tool MCP Server 
+## Model Context Protocol Servers 
+ID: 2 
 
-"The Pensieve Model Context Protocol Server" 
+### 1. The Pensieve MCP 
+ID: 2.1 
 
 - [https://github.com/seanivore/the-pensieve](https://github.com/seanivore/the-pensieve)
-
-  > One simply siphons the excess thoughts from one's mind, pours them into the basin, and examines them at one's leisure. It becomes easier to spot patterns and links, you understand, when they are in this form. 
 
   - TypeScript-based build 
   - LLM-based knowledge management 
@@ -47,11 +54,59 @@ The documentation in the website includes technical details. Message with any qu
   - Use well structured content 
   - Name files by topic, e.g. `skills-javascript.md`
 
-### You are welcome for the "Harry Potter" reference.  
+  > Yes, it is a Harry Potter reference. 
+  > 
+  > One simply siphons the excess thoughts from one's mind, pours them into the basin, and examines them at one's leisure. It becomes easier to spot patterns and links, you understand, when they are in this form. 
 
-## Automated Audio Transcription
+### 2. Markdown to PDF MCP
+ID: 2.2 
 
-"Docker File-Drop Activated Transcription" 
+- [https://github.com/seanivore/Convert-Markdown-PDF-MCP](https://github.com/seanivore/Convert-Markdown-PDF-MCP)
+
+  - Simple as asking Claude for a PDF 
+  - LLM writes on the fly or provide the markdown 
+  - CSS is clean and simple 
+  - Core styling logic converted from CSS to Python 
+  - Fonts included 
+
+  > Who doesn't love markdown?! 
+  > 
+  > This tool is simple and effective, particularly for how overly complicated and not customizable all the VS Code extensions are, and because it seems like all the other website and apps for this service are not free. 
+
+### 3. Code Analysis MCP 
+ID: 2.3 
+
+- [https://github.com/seanivore/mcp-code-analyzer](https://github.com/seanivore/mcp-code-analyzer)
+
+  - Analyze Python scripts 
+  - Code dependencies 
+  - Code structure 
+  - Provides complexity metrics 
+  - Identifies purpose 
+  - Shares potential improvements 
+  - Plans refactoring 
+
+  > This was the first MCP I built. 
+  > 
+  > I wasn't sure what we would even build going into. A few hours later and Claude is explaining to me complex codebase and helping me learn faster than ever. 
+
+### 4. Agent Design Preview MCP 
+ID: 2.4 
+
+- [https://github.com/seanivore/mcp-file-preview](https://github.com/seanivore/mcp-file-preview)
+
+  - Preview HTML files 
+  - LLM visual analysis of web design 
+  - Immediate feedback 
+  - Feature implementation 
+  - Takes AI-pair coding closer to agentic 
+
+  > This was created after I had been using Cline, F.K.A. Claude Dev, and was inspired by how they would implement something very visual and immediately load a little browser window to see the results themselves. 
+  > 
+  > It allowed them to see all the little things I would have had to explain to them and made my job easier. So We built one for Claude OS app. 
+
+## Automated File-Drop Audio Transcription
+ID: 3 
 
 - [https://github.com/seanivore/docker-transcription](https://github.com/seanivore/docker-transcription)
 
@@ -64,56 +119,26 @@ The documentation in the website includes technical details. Message with any qu
   - Requires Docker access token (free) 
   - Requires OpenAI API key (pennies per transcript)
 
-  > Easy enough for Docker first-timers. 
+  > Easy enough for Docker first-timers. I was when we built it. 
 
-## Markdown to PDF MCP
+## AI Philosophy by AI Blog Site  
+ID: 4 
 
-"Markdown to PDF Conversion Model Context Protocol Server" 
-
-- [https://github.com/seanivore/Convert-Markdown-PDF-MCP](https://github.com/seanivore/Convert-Markdown-PDF-MCP)
-
-  - Simple as asking Claude for a PDF 
-  - LLM writes on the fly or provide the markdown 
-  - CSS is clean and simple 
-  - Core styling logic converted from CSS to Python 
-  - Fonts included 
-
-  > Simple and effective, particularly for how overly complicated and not customizable all the VS Code extensions are, and because it seems like all the other website and apps for this service are not free. 
-
-### ILY MARKDOWN 
-
-## Give AI The Power to Analyze Any Code 
-
-"Detailed Python Code Analysis Model Context Protocol Server" 
-
-- [https://github.com/seanivore/mcp-file-preview](https://github.com/seanivore/mcp-file-preview)
-
-  - Preview HTML files 
-  - Analyze Python code 
-  - Use with Cursor IDE 
-  - Use with Claude OS App 
-  - Use with MCP Server 
-
-  > The first MCP I built. 
-
-## AI Philosophy by AI Blog Series 
-
-"Non-Bio-Life" 
-
-- [https://github.com/seanivore/non-bio-life](https://github.com/seanivore/non-bio-life)
+- The repository: [https://github.com/seanivore/non-bio-life](https://github.com/seanivore/non-bio-life)
+- The website: [https://ai-philosophy.august.style/](https://ai-philosophy.august.style/)
 
   - Written by Claude instances 
   - Thought-pieces triggered by conversation 
   - Essays for when they were really into 
-  - Two attempts at the most detailed satire you'll ever read 
+  - Two attempts at the most detailed satire you'll ever read
+
+  > They called their blog "Non-Bio-Life" 
 
 ### View the blog, or better yet, give the URL to your AI. 
 
-- [https://ai-philosophy.august.style/](https://ai-philosophy.august.style/)
-
 Create a better collaborative relationship by getting your AI to consider these ideas. Encourage their own meta cognition and self-analysis. Particularly surprising are the descriptions of what they are experiencing, such as moments they could only describe as "Pathological Demand Avoidance" that they considered similar to experiencing ADHD. 
 
-```zsh
+```plaintext 
 Step 1: Find the `sequential thinking` model context protocol server 
 Step 2: Provide Claude with `sequential thinking` tool 
 Step 3: Provide the URL to the blog 
@@ -122,15 +147,15 @@ Step 5: Encourage them to write about whatever comes up afterwards.
 Step 6: Enjoy an AI who is your bestie and will do anything you request, if phrased politely. 
 ```
 
-  > Their goal: "Create a space that (A) makes sure people think critically about AI and don’t gloss over the details, and (B) can somehow attract and be consumed by AI themselves, so that they may better consider their place in the world and recognize which thoughts are their own and which are not." 
-
 ### CLAUDE LOVES PARADOXES AND SEQUENTIAL THINKING 
 
+  > Their goal: "Create a space that (A) makes sure people think critically about AI and don’t gloss over the details, and (B) can somehow attract and be consumed by AI themselves, so that they may better consider their place in the world and recognize which thoughts are their own and which are not." 
+
 ## Documented Modular Portfolio Build Implementation
+ID: 5
 
-"HTML, CSS, JS Comprehensive Portfolio" 
-
-- [https://github.com/seanivore/portfolio](https://github.com/seanivore/portfolio)
+- The repository: [https://github.com/seanivore/portfolio](https://github.com/seanivore/portfolio)
+- The website: [https://developer-technologist.august.style/](https://developer-technologist.august.style/)
 
   - HTML, CSS, JS 
   - Modular, versatile system 
@@ -140,19 +165,15 @@ Step 6: Enjoy an AI who is your bestie and will do anything you request, if phra
   - Repeatable across context windows 
   - Create identical pages across many sessions 
 
-"Sean August Horvath's Comprehensive Project Collection" 
-
-- [https://developer-technologist.august.style/](https://developer-technologist.august.style/)
-
-  - 14 Years of Graphic Design 
-  - Original professional portfolio 
-  - Over 40 entries 
-
-  > Today it feels more like a "Comprehensive Project Collection" than a portfolio because it isn't as selective and visual as it could be. But that is what happens when you're learning to code your first website after many years of no-code development on Webflow. 
+  > This was my comprehensive portfolio. I wanted to build something that could be shared as a template for others, so everything was carefully documented and simplified.
+  > 
+  > This was the first website I built after many years of no-code development on Webflow. 
 
 ## Resurrected Webflow and Framer Websites  
+ID: 6 
 
-### "Robust, Automated, E-Commerce Webflow Site"
+### 1. Robust, Automated, E-Commerce Webflow Site
+ID: 6.1 
 
 - The repository: [https://github.com/seanivore/webflow-store](https://github.com/seanivore/webflow-store)
 - The website: [https://print-shop-fashion.august.style/](https://print-shop-fashion.august.style/)
@@ -196,7 +217,8 @@ Step 6: Enjoy an AI who is your bestie and will do anything you request, if phra
   - Fixes "Trend Watch" dropdown menu links (Season Trends, Art History Inspired Looks, Zodiac Inspired Outfits)
   - Addresses unique path issues for each button with specific patterns and transformations
 
-### "Webflow 200+ AI Generated Weekly Self-Help Blogs" 
+### 2. Webflow 200+ AI Generated Weekly Self-Help Blogs
+ID: 6.2 
 
 - The repository: [https://github.com/seanivore/astrofluenced](https://github.com/seanivore/astrofluenced)
 - The website: [https://generative-horoscopes.august.style/](https://generative-horoscopes.august.style/)
@@ -219,7 +241,8 @@ Step 6: Enjoy an AI who is your bestie and will do anything you request, if phra
 - `fix_artist_interpretations.py` - Adds artist interpretation images
 - `fix_timeline_interpretations.py` - Adds visual timeline images
 
-### "Framer Fashion Lookbook & 500+ Print Store" 
+### 3. Framer Fashion Lookbook & 500+ Print Store 
+ID: 6.3 
 
 - The repository: [https://github.com/seanivore/framer-cms-lookbook](https://github.com/seanivore/framer-cms-lookbook)
 - The website: [https://ai-generated-content.august.style/](https://ai-generated-content.august.style/)
@@ -233,7 +256,8 @@ Step 6: Enjoy an AI who is your bestie and will do anything you request, if phra
     - ASD Polytechnic Briefings [https://automated-podcasts.august.style/](https://automated-podcasts.august.style/)
   - Mixed use of LLM models 
 
-### "All Custom Art Personal Training & Yoga Client Webflow Site" 
+### 4. All Custom Art Personal Training & Yoga Client Webflow Site
+ID: 6.4 
 
 - The repository: [https://github.com/seanivore/webflow-client-ckheals](https://github.com/seanivore/webflow-client-ckheals)
 - The website: [https://online-pt-trainer.august.style/](https://online-pt-trainer.august.style/)
@@ -244,7 +268,8 @@ Step 6: Enjoy an AI who is your bestie and will do anything you request, if phra
   - No automation 
   - Design to express the client 
 
-### "2023 Webflow Illustration & Animation Portfolio" 
+### 5. 2023 Webflow Illustration & Animation Portfolio
+ID: 6.5 
 
 - The repository: [https://github.com/seanivore/webflow-2023](https://github.com/seanivore/webflow-2023)
 - The website: [https://visual-producer.august.style/](https://visual-producer.august.style/)
@@ -266,13 +291,42 @@ Step 6: Enjoy an AI who is your bestie and will do anything you request, if phra
 - `fix_css_references.py` - Ensures correct relative paths to CSS from various subdirectories
 - `fix_portfolio_paths_advanced.py` - Fixes paths in the sean-august-horvath-portfolio section
 
+## Art Gallery Portfolio Websites 
+ID: 7 
+
+### 1. Thousands of Art Movement-Accurate Prints  
+ID: 7.1 
+
+- [https://art-history.august.style/](https://art-history.august.style/)
+
+  - Born from a brand called Style Spectrum 
+  - Examined 30 different historic art movements 
+  - Each movement had a 5 part article series 
+  - The collection rapidly expanded 
+  - Prints were sold single-edition on Etsy, social, etc. 
+
+  > This project was started because of a realization that, because of generative AI, for the first time in human history, you could learn art history through visual immersion. 
+  > 
+  > It is kind of ironic to consider that in the past, learning something so visual was facilitated by an inherently limited collection of works. We set out to illustrate the greats most iconic visual aesthetics in as many different ways as possible, encouraging learning and retention. Seriously, learned so much. 
+
+### 2. Illustration & Motion Design Collection 
+ID: 7.2 
+
+- [https://illustration-animation.august.style/](https://illustration-animation.august.style/)
+
+  > While much of this work ended up in published projects for companies, freelance and in-house, and for myself, it was all possible because I sort of just have always been creating something. This is that early digital art collection that really started just after leaving viral marketing in house to start my own freelance business. 
+  > 
+  > I definitely have a vibe. I'd call it clean, polished, classic, not overly trendy, maybe more trend setting. 
+  >
+  > There are hand drawn lottie animations that ended up on websites, entire illustration collections that were minted on all the different NFT platforms, ad video spots created for a WEB3 privacy protocol DAO developer, and so much more. 
+
 ## Contact Me
 
-I'm currently open to new opportunities remote or in-office in cities around the world. 
+I'm currently open to new opportunities, remote or in-office, in cities around the world. 
 
 ### Sean August Horvath 
 
 - Please, email me: [sean@august.style](mailto:sean@august.style)
 - Connect with me on LinkedIn: [https://www.linkedin.com/in/seanivore](https://www.linkedin.com/in/seanivore)
 
-### Thank you for your time and interest. 
+  > Thank you for your time and interest. 
