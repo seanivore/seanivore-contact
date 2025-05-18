@@ -49,8 +49,8 @@
     left: 10%;
     top: 20%;
     animation: 
-        move1 30s infinite ease-in-out,
-        grow1 15s infinite ease-in-out alternate;
+        move1 15s infinite ease-in-out,
+        grow1 8s infinite ease-in-out alternate;
 }
 
 #circle2 {
@@ -64,8 +64,8 @@
     right: 15%;
     bottom: 20%;
     animation: 
-        move2 35s infinite ease-in-out,
-        grow2 20s infinite ease-in-out alternate;
+        move2 18s infinite ease-in-out,
+        grow2 10s infinite ease-in-out alternate;
 }
 
 #circle3 {
@@ -79,44 +79,44 @@
     right: 25%;
     top: 40%;
     animation: 
-        move3 40s infinite ease-in-out,
-        grow3 18s infinite ease-in-out alternate;
+        move3 20s infinite ease-in-out,
+        grow3 12s infinite ease-in-out alternate;
 }
 
 /* Circle Movement Animations */
 @keyframes move1 {
     0%, 100% { transform: translate(0, 0); }
-    25% { transform: translate(25vw, 10vh); }
-    50% { transform: translate(15vw, 30vh); }
-    75% { transform: translate(-10vw, 10vh); }
+    25% { transform: translate(30vw, 15vh); }
+    50% { transform: translate(20vw, 35vh); }
+    75% { transform: translate(-15vw, 15vh); }
 }
 
 @keyframes move2 {
     0%, 100% { transform: translate(0, 0); }
-    25% { transform: translate(-20vw, -10vh); }
-    50% { transform: translate(-10vw, -25vh); }
-    75% { transform: translate(15vw, -5vh); }
+    25% { transform: translate(-25vw, -15vh); }
+    50% { transform: translate(-15vw, -30vh); }
+    75% { transform: translate(20vw, -10vh); }
 }
 
 @keyframes move3 {
     0%, 100% { transform: translate(0, 0); }
-    25% { transform: translate(-15vw, 15vh); }
-    50% { transform: translate(20vw, -10vh); }
-    75% { transform: translate(5vw, 20vh); }
+    25% { transform: translate(-20vw, 20vh); }
+    50% { transform: translate(25vw, -15vh); }
+    75% { transform: translate(10vw, 25vh); }
 }
 
 /* Circle Growth Animations */
 @keyframes grow1 {
     0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.2); }
+    50% { transform: scale(1.4); }
 }
 
 @keyframes grow2 {
     0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.3); }
+    50% { transform: scale(1.5); }
 }
 
 @keyframes grow3 {
     0%, 100% { transform: scale(1); }
-    50% { transform: scale(0.8); }
+    50% { transform: scale(0.7); }
 }
