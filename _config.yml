@@ -1,0 +1,9 @@
+permalink: /:basename/
+title: Current Projects Overview | SEANIVORE 
+description: Design and development projects built by Sean August Horvath over the past couple years. Consider this a living, casual portfolio.
+baseurl: "/"
+url: "https://projects.august.style/"
+collections:
+  pages:
+    output: true
+    permalink: /:basename/

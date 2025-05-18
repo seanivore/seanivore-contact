@@ -10,19 +10,3 @@ Please review the following and have an understanding of the project scope and c
 
 *Add entity names after initial project state update* 
 
-## Project Directory Structure 
-
-```plaintext 
-├── assets
-│   ├── css
-│   ├── docs
-│   ├── js
-│   ├── favicon
-│   └── images
-├── claude
-│   ├── DEV.md
-│   ├── INDEX.md
-│   ├── PRIME.md
-│   └── WGET.md
-└── README.md
-```

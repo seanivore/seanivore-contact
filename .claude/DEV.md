@@ -16,10 +16,11 @@ This casual, conversational style is meant to compliment the more formal and pro
 
 - [https://design.august.style](https://design.august.style)
 
+This new site will be posted on `https://projects.august.style`.
 
 ## Content 
 
-Drafted copy for 7 project types is prepared here: [./INDEX.md](../.claude/INDEX.md). 
+Five main project categories with multiple sub-projects, all prepared on the single INDEX.html file. You can find the drafted copy on [./INDEX.md](../.claude/INDEX.md). 
 
 - 1. Agentic Workflow Case Studies
   - 1.1 'AI Voice Marketing Research Strategy & Implementation Guides'
@@ -43,6 +44,73 @@ Drafted copy for 7 project types is prepared here: [./INDEX.md](../.claude/INDEX
   - 5.1 'Thousands of Art Movement-Accurate Prints'
   - 5.2 'Illustration & Animation Projects' 
 
+## Design 
 
+### Favicon
 
+```html
+<link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="seanivore" />
+<link rel="manifest" href="/assets/favicon/site.webmanifest" />
+```
 
+### Typography 
+
+All off-white text. 
+
+- H1: [Bitcount-Mono-Double-Book-Square.otf](/assets/fonts/Bitcount-Mono-Double-Book-Square.otf)
+- H2: [FreightNeo Pro Bold Italic.otf](/assets/fonts/FreightNeo%20Pro%20Bold%20Italic.otf)
+- H3: [FreightNeoCndProBlack-Regular.otf](/assets/fonts/FreightNeoCndProBlack-Regular.otf)
+- Blockquote: [FreightNeoCndProLight-Italic.otf](/assets/fonts/FreightNeoCndProLight-Italic.otf)
+- Paragraph: [FreightNeoCndProBook-Regular.otf](/assets/fonts/FreightNeoCndProBook-Regular.otf)
+
+### Color Palette 
+
+Here is the palette though I mentioned that the background circles could probably have some shade variance either from a stroke or gradient, but centered around the main color. 
+
+```CSS 
+  --h1-rectangle: #E3B547;
+  --h2-icons: #B167B2;
+  --bg-circle-1: #D8523A;
+  --bg-circle-2: #23A2C7;
+  --bg-circle-3: #4ABF5D;
+```
+
+### Background CSS Animation 
+
+Between the background animations and the text is a 100 vw x 100 vh very dark transparent black layer with blurring. The transparent black is a 3 part gradient using a highlight and a shadow to create a "glare" effect down the middle of the screen but angled slightly. 
+
+Behind that layer are three circles, mentioned in the color palette section above. They move slowly, about 6 to 9 seconds to get all the way across the screen. They are each growing and shrinking, also slowly, though all at slightly different speeds, and each grows and shrinks around a specifically different center point size so that they generally maintain a nature of being 3 different sizes. 
+
+They should cross each other, bounce off the edges of the screen, and very randomly though with decent viewport coverage of around 40 to 80% the entire time. 
+
+Because the transparent layer is so dark and blurred, this creates a very subtle effect that is not distracting but rather calming. 
+
+### Header Detailing 
+
+There are 5 project types, each a H1 heading. The yellow color in the pallet is used for a rectangle sitting behind the H1 heading, slightly skewed from the text. 
+
+The actual project names that you'll find prepared on the INDEX.md file are the H2 headings. Each H2 heading is paired with a purple SVG icon. 
+
+## Technical Plan
+
+The implementation will be clean HTML/CSS/JS with no framework dependencies:
+
+- Single-page design with section navigation
+- Custom font loading using your .otf files
+- CSS animations for the background elements
+- Responsive design for all devices
+- Well-organized, maintainable code structure
+
+The repository is ready with the basic folder structure, and we'll be building from scratch with the goal of hosting on GitHub Pages.
+
+## Development Plan
+
+- Creating the HTML structure and organizing your content
+- Implementing the animated background effect with the colored circles
+- Setting up the typography system with your font files
+- Building the section layouts with the special heading treatments
+- Adding responsive design and refinements
