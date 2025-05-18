@@ -13,6 +13,17 @@
 │   ├── docs
 │   │   └── WGET.md
 │   ├── favicon
+│   │   ├── apple-touch-icon.png
+│   │   ├── cubed-s-a-favicon.ai
+│   │   ├── cubed-s-a-favicon.png
+│   │   ├── cubed-s-a-favicon.svg
+│   │   ├── favicon-96x96.png
+│   │   ├── favicon.ico
+│   │   ├── favicon.svg
+│   │   ├── favicon.zip
+│   │   ├── site.webmanifest
+│   │   ├── web-app-manifest-192x192.png
+│   │   └── web-app-manifest-512x512.png
 │   ├── fonts
 │   │   ├── Bitcount-Mono-Double-Book-Square.otf
 │   │   ├── FreightNeo Pro Bold Italic.otf
