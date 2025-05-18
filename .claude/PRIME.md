@@ -4,6 +4,25 @@ Please review the following and have an understanding of the project scope and c
 
 ## Files in the Project Directory 
 
+`/Users/seanivore/Development/seanivore-contact/.claude/DEV.md`
+
 ## Our `memory` Project Management MCP 
 
-*Sean to add the name of the entity created here when first memories are created to start off the project.* 
+*Add entity names after initial project state update* 
+
+## Project Directory Structure 
+
+```plaintext 
+├── assets
+│   ├── css
+│   ├── docs
+│   ├── js
+│   ├── favicon
+│   └── images
+├── claude
+│   ├── DEV.md
+│   ├── INDEX.md
+│   ├── PRIME.md
+│   └── WGET.md
+└── README.md
+```

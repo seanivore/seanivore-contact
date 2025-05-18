@@ -1,4 +1,5 @@
 # Projects Overview 
+Project Directory: `/Users/seanivore/Development/seanivore-contact`
 
 ## Concept 
 
@@ -18,7 +19,7 @@ This casual, conversational style is meant to compliment the more formal and pro
 
 ## Content 
 
-Drafted copy for 7 project types is prepared here: [./INDEX.md](./INDEX.md). 
+Drafted copy for 7 project types is prepared here: [./INDEX.md](../.claude/INDEX.md). 
 
 - 1. Agentic Workflow Case Studies
   - 1.1 'AI Voice Marketing Research Strategy & Implementation Guides'
