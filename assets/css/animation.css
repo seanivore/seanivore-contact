@@ -1,0 +1,122 @@
+/* Animation Styles */
+
+/* Animation Container */
+.animation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+/* Glass Overlay */
+.glass-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        135deg, 
+        var(--glass-overlay) 25%, 
+        var(--glass-highlight) 50%, 
+        var(--glass-overlay) 75%
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+/* Animation Circles */
+.animation-circle {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(30px);
+    opacity: 0.7;
+    z-index: 0;
+}
+
+#circle1 {
+    background: radial-gradient(
+        circle at 30% 30%,
+        var(--bg-circle-1) 40%,
+        rgba(216, 82, 58, 0.7) 80%
+    );
+    width: 50vmin;
+    height: 50vmin;
+    left: 10%;
+    top: 20%;
+    animation: 
+        move1 30s infinite ease-in-out,
+        grow1 15s infinite ease-in-out alternate;
+}
+
+#circle2 {
+    background: radial-gradient(
+        circle at 70% 40%,
+        var(--bg-circle-2) 30%,
+        rgba(35, 162, 199, 0.8) 70%
+    );
+    width: 40vmin;
+    height: 40vmin;
+    right: 15%;
+    bottom: 20%;
+    animation: 
+        move2 35s infinite ease-in-out,
+        grow2 20s infinite ease-in-out alternate;
+}
+
+#circle3 {
+    background: radial-gradient(
+        circle at 50% 60%,
+        var(--bg-circle-3) 35%,
+        rgba(74, 191, 93, 0.7) 75%
+    );
+    width: 60vmin;
+    height: 60vmin;
+    right: 25%;
+    top: 40%;
+    animation: 
+        move3 40s infinite ease-in-out,
+        grow3 18s infinite ease-in-out alternate;
+}
+
+/* Circle Movement Animations */
+@keyframes move1 {
+    0%, 100% { transform: translate(0, 0); }
+    25% { transform: translate(25vw, 10vh); }
+    50% { transform: translate(15vw, 30vh); }
+    75% { transform: translate(-10vw, 10vh); }
+}
+
+@keyframes move2 {
+    0%, 100% { transform: translate(0, 0); }
+    25% { transform: translate(-20vw, -10vh); }
+    50% { transform: translate(-10vw, -25vh); }
+    75% { transform: translate(15vw, -5vh); }
+}
+
+@keyframes move3 {
+    0%, 100% { transform: translate(0, 0); }
+    25% { transform: translate(-15vw, 15vh); }
+    50% { transform: translate(20vw, -10vh); }
+    75% { transform: translate(5vw, 20vh); }
+}
+
+/* Circle Growth Animations */
+@keyframes grow1 {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+@keyframes grow2 {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+}
+
+@keyframes grow3 {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(0.8); }
+}

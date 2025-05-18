@@ -1,0 +1,141 @@
+/* Layout Styles */
+
+/* Content Container */
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+/* Project Sections */
+.project-section {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+.project-section:last-child {
+    border-bottom: none;
+}
+
+.section-heading {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+/* Project Subsections */
+.project-subsection {
+    margin: 3rem 0;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.section-links {
+    margin: 1rem 0 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+/* Lists */
+.feature-list {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.feature-list li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.feature-list li::before {
+    content: "•";
+    color: var(--h1-rectangle);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+}
+
+.feature-list li ul {
+    margin-top: 0.5rem;
+    margin-left: 0;
+}
+
+.feature-list li ul li::before {
+    content: "◦";
+}
+
+.contact-list {
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+
+.contact-list li {
+    margin-bottom: 0.8rem;
+}
+
+/* Contact Section */
+.contact-section {
+    margin-top: 3rem;
+    padding: 2rem 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 2rem 1.5rem;
+    }
+    
+    .project-subsection {
+        padding-left: 1rem;
+    }
+    
+    main {
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-wrapper {
+        padding: 1.5rem 1rem;
+    }
+    
+    .section-links {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    
+    .project-subsection {
+        padding-left: 0.5rem;
+    }
+}

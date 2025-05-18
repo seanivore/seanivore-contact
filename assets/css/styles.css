@@ -1,0 +1,70 @@
+/* Main Stylesheet */
+@import url('typography.css');
+@import url('layout.css');
+@import url('animation.css');
+@import url('components.css');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+:root {
+    --h1-rectangle: #E3B547;
+    --h2-icons: #B167B2;
+    --bg-circle-1: #D8523A;
+    --bg-circle-2: #23A2C7;
+    --bg-circle-3: #4ABF5D;
+    --text-color: rgba(255, 255, 255, 0.95);
+    --background-color: #121212;
+    --glass-overlay: rgba(12, 12, 12, 0.85);
+    --glass-highlight: rgba(30, 30, 30, 0.3);
+}
+
+html, body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: underline;
+    transition: opacity 0.2s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+ul, ol {
+    list-style-position: inside;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+code {
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+}
+
+pre {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}

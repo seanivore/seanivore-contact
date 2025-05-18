@@ -1,0 +1,156 @@
+/* Typography Styles */
+
+/* Font Face Declarations */
+@font-face {
+    font-family: 'Bitcount Mono';
+    src: url('/assets/fonts/Bitcount-Mono-Double-Book-Square.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreightNeo Bold Italic';
+    src: url('/assets/fonts/FreightNeo%20Pro%20Bold%20Italic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreightNeoCndPro Black';
+    src: url('/assets/fonts/FreightNeoCndProBlack-Regular.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreightNeoCndPro Light Italic';
+    src: url('/assets/fonts/FreightNeoCndProLight-Italic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreightNeoCndPro Book';
+    src: url('/assets/fonts/FreightNeoCndProBook-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Typography Hierarchy */
+body {
+    font-family: 'FreightNeoCndPro Book', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Bitcount Mono', monospace;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 2rem 0 1.5rem;
+    position: relative;
+}
+
+header h1 {
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-family: 'FreightNeo Bold Italic', serif;
+    font-size: 2.2rem;
+    line-height: 1.3;
+    margin: 2rem 0 1rem;
+    position: relative;
+}
+
+h3 {
+    font-family: 'FreightNeoCndPro Black', sans-serif;
+    font-size: 1.7rem;
+    margin: 1.5rem 0 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+blockquote {
+    font-family: 'FreightNeoCndPro Light Italic', serif;
+    font-size: 1.2rem;
+    border-left: 4px solid var(--h1-rectangle);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    opacity: 0.9;
+}
+
+.section-id {
+    font-family: 'FreightNeoCndPro Book', sans-serif;
+    font-size: 1rem;
+    opacity: 0.7;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.section-tagline {
+    font-family: 'FreightNeoCndPro Light Italic', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-note {
+    font-family: 'FreightNeoCndPro Black', sans-serif;
+    font-size: 1.2rem;
+    margin: 2rem 0 0.5rem;
+}
+
+footer {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    header h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+    }
+    
+    blockquote {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    header h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+}
