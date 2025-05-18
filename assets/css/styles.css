@@ -54,6 +54,7 @@ code {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 0.1rem 0.3rem;
     border-radius: 3px;
+    font-size: 0.9em;
 }
 
 pre {
@@ -62,6 +63,8 @@ pre {
     border-radius: 5px;
     overflow-x: auto;
     margin: 1.5rem 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 pre code {

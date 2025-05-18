@@ -89,6 +89,10 @@ blockquote {
     opacity: 0.9;
 }
 
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
 .section-id {
     font-family: 'FreightNeoCndPro Book', sans-serif;
     font-size: 1rem;
