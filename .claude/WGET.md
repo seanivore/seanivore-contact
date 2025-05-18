@@ -1,6 +1,4 @@
-# Development Plan
-
-## Adobe Portfolio Websites
+# Adobe Portfolio Websites
 
 Adobe subscription is finally canceled. I have two websites I used to update from Lightroom to Behance and Adobe Portfolio sites. I need to pull them both down and make them functional locally. Then I can deploy them to GitHub Pages. 
 
@@ -9,7 +7,7 @@ Adobe subscription is finally canceled. I have two websites I used to update fro
 
 Let's wget each of them and then use the wget output to create a new repository. 
 
-### Download Websites 
+## Download Websites 
 
 1. Place arguments before the URL.
 
@@ -28,7 +26,7 @@ wget -c -r -nH -p -k -E --convert-links --domains august.style --restrict-file-n
 
 1. Copy over the 'new project directory' prepared directories and set up proper branches and repositories, as usual. 
 
-### Organize and Deploy 
+## Organize and Deploy 
 
 1. Organize the files. 
 2. Prepare the README files. 
@@ -40,7 +38,3 @@ wget -c -r -nH -p -k -E --convert-links --domains august.style --restrict-file-n
 ## Content Completion  
 
 Add the newly deployed websites to the list of projects on the `./INDEX.md` file. 
-
-## Design & Structure 
-
-This is meant to be a single page website that is more of a resource than a portfolio. I have yet to decide if we I want an image for each entry or not. My initial thought towards using Markdown > HTML has shifted since I've yet to find or create a Jekyll theme that I'm happy with. 

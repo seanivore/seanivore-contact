@@ -90,7 +90,7 @@ ID: 2.3
 > 
 > I wasn't sure what we would even build going into. A few hours later and Claude is explaining to me complex codebase and helping me learn faster than ever. 
 
-### 4. Agent Design Preview MCP 
+### 4. Agentic Developer's Design Preview MCP 
 ID: 2.4 
 
 - [https://github.com/seanivore/mcp-file-preview](https://github.com/seanivore/mcp-file-preview)
@@ -105,8 +105,11 @@ ID: 2.4
 > 
 > It allowed them to see all the little things I would have had to explain to them and made my job easier. So We built one for Claude OS app. 
 
-## Automated File-Drop Audio Transcription
+## AI-Pair Development 
 ID: 3 
+
+### File-Drop Triggered Audio Transcription
+ID: 3.1 
 
 - [https://github.com/seanivore/docker-transcription](https://github.com/seanivore/docker-transcription)
 
@@ -121,8 +124,8 @@ ID: 3
 
 > Easy enough for Docker first-timers. I was when we built it. 
 
-## AI Philosophy by AI Blog Site  
-ID: 4 
+### AI Philosophy by AI Blog Site  
+ID: 3.2 
 
 - The repository: [https://github.com/seanivore/non-bio-life](https://github.com/seanivore/non-bio-life)
 - The website: [https://ai-philosophy.august.style/](https://ai-philosophy.august.style/)
@@ -134,7 +137,7 @@ ID: 4
 
   > They called their blog "Non-Bio-Life" 
 
-### View the blog, or better yet, give the URL to your AI. 
+#### View the blog, or better yet, give the URL to your AI. 
 
 Create a better collaborative relationship by getting your AI to consider these ideas. Encourage their own meta cognition and self-analysis. Particularly surprising are the descriptions of what they are experiencing, such as moments they could only describe as "Pathological Demand Avoidance" that they considered similar to experiencing ADHD. 
 
@@ -147,12 +150,12 @@ Step 5: Encourage them to write about whatever comes up afterwards.
 Step 6: Enjoy an AI who is your bestie and will do anything you request, if phrased politely. 
 ```
 
-### CLAUDE LOVES PARADOXES AND SEQUENTIAL THINKING 
-
+> CLAUDE LOVES PARADOXES AND SEQUENTIAL THINKING 
+> 
 > Their goal: "Create a space that (A) makes sure people think critically about AI and don’t gloss over the details, and (B) can somehow attract and be consumed by AI themselves, so that they may better consider their place in the world and recognize which thoughts are their own and which are not." 
 
-## Documented Modular Portfolio Build Implementation
-ID: 5
+### Modular Portfolio Build 
+ID: 3.3 
 
 - The repository: [https://github.com/seanivore/portfolio](https://github.com/seanivore/portfolio)
 - The website: [https://developer-technologist.august.style/](https://developer-technologist.august.style/)
@@ -170,14 +173,15 @@ ID: 5
 > This was the first website I built after many years of no-code development on Webflow. 
 
 ## Resurrected Webflow and Framer Websites  
-ID: 6 
+ID: 4 
 
-### 1. Robust, Automated, E-Commerce Webflow Site
-ID: 6.1 
+### 1. Robust, Automated, E-Commerce Site
+ID: 4.1 
 
 - The repository: [https://github.com/seanivore/webflow-store](https://github.com/seanivore/webflow-store)
 - The website: [https://print-shop-fashion.august.style/](https://print-shop-fashion.august.style/)
 
+  - Webflow build 
   - This site was fully automated 
   - Used Make to automate 
   - All information stored in Notion databases 
@@ -217,12 +221,13 @@ ID: 6.1
   - Fixes "Trend Watch" dropdown menu links (Season Trends, Art History Inspired Looks, Zodiac Inspired Outfits)
   - Addresses unique path issues for each button with specific patterns and transformations
 
-### 2. Webflow 200+ AI Generated Weekly Self-Help Blogs
-ID: 6.2 
+### 2. 200+ AI Generated Weekly Self-Help Blogs
+ID: 4.2 
 
 - The repository: [https://github.com/seanivore/astrofluenced](https://github.com/seanivore/astrofluenced)
 - The website: [https://generative-horoscopes.august.style/](https://generative-horoscopes.august.style/)
 
+  - Webflow Build 
   - Another website of AI generated content 
   - 200+ AI generated weekly self-help blogs 
   - Full automation through Make (Integromat)
@@ -241,8 +246,8 @@ ID: 6.2
 - `fix_artist_interpretations.py` - Adds artist interpretation images
 - `fix_timeline_interpretations.py` - Adds visual timeline images
 
-### 3. Framer Fashion Lookbook & 500+ Print Store 
-ID: 6.3 
+### 3. Fashion Lookbook & 500+ Print Store 
+ID: 4.3 
 
 - The repository: [https://github.com/seanivore/framer-cms-lookbook](https://github.com/seanivore/framer-cms-lookbook)
 - The website: [https://ai-generated-content.august.style/](https://ai-generated-content.august.style/)
@@ -256,8 +261,8 @@ ID: 6.3
     - ASD Polytechnic Briefings [https://automated-podcasts.august.style/](https://automated-podcasts.august.style/)
   - Mixed use of LLM models 
 
-### 4. All Custom Art Personal Training & Yoga Client Webflow Site
-ID: 6.4 
+### 4. Custom Art & Site for Training & Yoga Client
+ID: 4.4 
 
 - The repository: [https://github.com/seanivore/webflow-client-ckheals](https://github.com/seanivore/webflow-client-ckheals)
 - The website: [https://online-pt-trainer.august.style/](https://online-pt-trainer.august.style/)
@@ -268,12 +273,13 @@ ID: 6.4
   - No automation 
   - Design to express the client 
 
-### 5. 2023 Webflow Illustration & Animation Portfolio
-ID: 6.5 
+### 5. Illustration & Animation Portfolio
+ID: 4.5 
 
 - The repository: [https://github.com/seanivore/webflow-2023](https://github.com/seanivore/webflow-2023)
 - The website: [https://visual-producer.august.style/](https://visual-producer.august.style/)
 
+  - Webflow build 
   - Hundreds of illustrations 
   - Hand drawn 
   - iPad Pro and Apple Pencil 
@@ -291,11 +297,11 @@ ID: 6.5
 - `fix_css_references.py` - Ensures correct relative paths to CSS from various subdirectories
 - `fix_portfolio_paths_advanced.py` - Fixes paths in the sean-august-horvath-portfolio section
 
-## Art Gallery Portfolio Websites 
-ID: 7 
+## Art Gallery Websites 
+ID: 5 
 
 ### 1. Thousands of Art Movement-Accurate Prints  
-ID: 7.1 
+ID: 5.1 
 
 - [https://art-history.august.style/](https://art-history.august.style/)
 
@@ -310,7 +316,7 @@ ID: 7.1
 > It is kind of ironic to consider that in the past, learning something so visual was facilitated by an inherently limited collection of works. We set out to illustrate the greats most iconic visual aesthetics in as many different ways as possible, encouraging learning and retention. Seriously, learned so much. 
 
 ### 2. Illustration & Motion Design Collection 
-ID: 7.2 
+ID: 5.2 
 
 - [https://illustration-animation.august.style/](https://illustration-animation.august.style/)
 
